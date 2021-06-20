@@ -1,6 +1,5 @@
 # README
 
-
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
@@ -28,3 +27,6 @@ Run this cmd to start a new project from zero
 ```
 docker-compose run --no-deps web rails new . --force --database=sqlite3
 ```
+
+ Database Supported preconfigurations are:
+> mysql, postgresql, sqlite3, oracle, sqlserver, jdbcmysql, jdbcsqlite3, jdbcpostgresql, jdbc
